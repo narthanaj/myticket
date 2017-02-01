@@ -8,6 +8,7 @@ package view;
 import classes.dbconnect;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -151,17 +152,28 @@ public class addmember extends javax.swing.JFrame {
         try {
             
             
-        String q = "INSERT INTO user (uname,email,address,TPNO,Gender,Password) values ('"+ name +"','"+ email +"', '"+ address +"','"+ TP +"','"+ gender +"','"+ password +"' )";
+        String q = "INSERT INTO user (username,email,address,TPNO,Gender,Password) values ('"+ name +"','"+ email +"', '"+ address +"','"+ TP +"','"+ gender +"','"+ password +"' )";
         pst = con.prepareStatement(q);
         pst.execute();
-        
+        JOptionPane.showMessageDialog(null, "Sucess");
+        AAuname.setText("");
+        AAemail.setText("");
+        AApassword.setText("");
+        AAaddress.setText("");
+        AATPNO.setText("");
+//        AAgender.setText("");
+        AAuname.requestFocus();
+        this.dispose();
+        adminpanal ap = new adminpanal();
+        ap.setVisible(true);
         
         } catch (Exception e) {
+            System.out.println(e);           
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
-     * @param args the command line arguments
+     * @param args the command line 1
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */

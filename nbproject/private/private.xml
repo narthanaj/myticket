@@ -5,13 +5,9 @@
         <group>
             <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/view/adminpanal.java</file>
             <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/view/addmember.java</file>
-            <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/classes/user.java</file>
-            <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/view/NewJFrame.java</file>
-            <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/view/userpanel.java</file>
             <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/view/login.java</file>
-            <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/classes/dbconnect.java</file>
             <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/view/Registration.java</file>
-            <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/classes/Admin.java</file>
+            <file>file:/root/NetBeansProjects/bus%20ticket%20booking%20sysytem/src/classes/User.java</file>
         </group>
     </open-files>
 </project-private>
